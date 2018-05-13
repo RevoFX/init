@@ -1,0 +1,5 @@
+We would want to pull the gateway ip address which the command is:
+
+route -n get slash16.org | grep gateway | awk '{ print $2 }'
+
+which would equal to: 10.112.254.254
